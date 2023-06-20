@@ -7,6 +7,8 @@
       background-color: #f7f7f7;
       font-family: 'Roboto', Arial, sans-serif;
       color: #2d4966;
+      margin: 0;
+      padding: 0;
     }
     .container {
       max-width: 800px;
