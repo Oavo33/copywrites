@@ -4,7 +4,8 @@
   <title>Community Notice Board</title>
   <style>
     * {
-  box-sizing: border-box;margin: 0;
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
 }
 body {
@@ -13,7 +14,9 @@ body {
 .container {
   max-width: 464px;
   margin: 0 auto;
-  padding: 20px;}
+  padding: 20px;
+  text-align: center;
+}
 header {
   text-align: center;
   margin-bottom: 20px;
@@ -22,168 +25,186 @@ header {
   font-size: 32px;
   font-weight: bold;
   color: #333333;
+  text-align: center;
 }
 main {
   margin-bottom: 40px;
+  text-align: center;
 }
 .subtitle {
   font-size: 24px;
   font-weight: bold;
   color: #333333;
   margin-bottom: 10px;
+  text-align: center;
 }
 p {
   font-size: 16px;
   color: #333333;
   margin-bottom: 20px;
+  text-align: center;
 }
 .container {
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  text-align: center;
 }
 header {
   padding: 20px 0;
   border-bottom: 1px solid #cccccc;
+  text-align: center;
 }
 .title {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .main-content {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 .section {
   flex: 1 1 100%;
   margin-bottom: 40px;
+  text-align: center;
 }
 .section:nth-child(odd) {
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 4px;
+  text-align: center;
 }
 .section:nth-child(even) {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 .section-title {
   font-size: 20px;
   font-weight: bold;
   color: #333333;
   margin-bottom: 10px;
+  text-align: center;
 }
 .section-content {
   font-size: 18px;
   color: #333333;
   line-height: 1.6;
+  text-align: center;
 }
 .section-content p {
   margin-bottom: 10px;
+  text-align: center;
 }
 .section-content ul {
   list-style-type: disc;
   margin-left: 20px;
+  text-align: center;
 }
 .section-content li {
   margin-bottom: 5px;
+  text-align: center;
 }
-    footer {
-      background: linear-gradient(to bottom, #ffffff, #00b3b3);
-      padding: 30px;
-      color: #ffffff;
-      text-align: center;
-      font-size: 14px;
-    }
-    .footer-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .footer-container .box {
-      background-color: #00b3b3;
-      color: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      padding: 4px;
-      text-align: center;
-      margin: 7px auto;
-    }
-    .footer-container .box h3 {
-      font-size: 14px;
-      margin: 0;
-      padding: 7px 0;
-      color: #ffffff;
-    }
-    .footer-container .box p {
-      font-size: 14px;
-      margin: 0;
-      padding: 7px 0;
-      color: #ffffff;
-    }
-    .footer-container .box:first-child {
-      border: 1px solid #ffffff;
-    }
-    .footer-container .box:last-child {
-      border: 1px solid #ffffff;
-    }
-    .social {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: center;
-      margin-top: 20px;
-    }
-    .social a {
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-      margin-right: 10px;
-    }
-    .social a img {
-      width: 30px;
-      height: 30px;
-      background: none;
-      transition: all 0.3s ease;
-    }
-    .social a span {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      margin-top: 5px;
-      font-family: 'Roboto', sans-serif;
-      font-size: 16px;
-      font-weight: bold;
-      color: #00b3b3;
-      white-space: nowrap;
-    }
-    .social a:hover img {
-      width: 40px;
-      height: 40px;
-    }
-    .social a:hover span {
-      display: block;
-    }
-    .tcbhg {
-      text-align: center;
-      margin-top: 7px;
-    }
-    .tcbhg a {
-      color: #00b3b3;
-      text-decoration: none;
-    }
-    .tcbhg a:hover {
-      text-decoration: underline;
-    }
+footer {
+  background: linear-gradient(to bottom, #ffffff, #00b3b3);
+  padding: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer-container .box {
+  background-color: #00b3b3;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  text-align: center;
+  margin: 7px auto;
+}
+.footer-container .box h3 {
+  font-size: 14px;
+  margin: 0;
+  padding: 7px 0;
+  color: #ffffff;
+  text-align: center;
+}
+.footer-container .box p {
+  font-size: 14px;
+  margin: 0;
+  padding: 7px 0;
+  color: #ffffff;
+  text-align: center;
+}
+.footer-container .box:first-child {
+  border: 1px solid #ffffff;
+}
+.footer-container .box:last-child {
+  border: 1px solid #ffffff;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+}
+.social a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.social a img {
+  width: 30px;
+  height: 30px;
+  background: none;
+  transition: all 0.3s ease;
+}
+.social a span {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #00b3b3;
+  white-space: nowrap;
+}
+.social a:hover img {
+  width: 40px;
+  height: 40px;
+}
+.social a:hover span {
+  display: block;
+}
+.tcbhg {
+  text-align: center;
+  margin-top: 7px;
+}
+.tcbhg a {
+  color: #00b3b3;
+  text-decoration: none;
+}
+.tcbhg a:hover {
+  text-decoration: underline;
+}
   </style>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
