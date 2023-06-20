@@ -216,7 +216,7 @@ footer {
     <main>
       <section>
         <h2 class="subtitle">Important Announcement</h2>
-        <p>Hi, thank you for making it this far into all the information that we have put on Our Hub. The team hopes you like what we have to offer you, and it's all free! You get help, information, free giveaways, an amazing passageway to our social media presence, and maybe meet with some community members/neighbours just like you and have a nice chat or a bit of lively banter that could brighten up your day/week/month/year/forever. We have not mentioned the past few years with price rises and a complete change to our community, locked in our own house!</p>
+        <p>Hi, thank you for making it this far into all the information that we have put on Our Hub. The team hopes you like what we have to offer you, and it's all free! You get help, information, free giveaways, an amazing passageway to our social media presence, and maybe meet with some community members/neighbours just like you ? and have a nice chat or a bit of lively banter that could brighten up your day/week/month/year/forever. We have not mentioned the past few years with price rises and a complete change to our community, locked in our own house!</p>
         <p>But we will now! And we've done this for a reason! We have been through 2 world wars! We have been through the rise and fall of many world-changing features! We have invented flying objects and made seawater drinkable! We have been through so much more and always come out the other end shining! WE ARE HUMAN! And that makes us the most resilient, dominant, and loving creatures on the planet! Let's all get our community back and get together to save our planet, "Please."</p>
       </section>
       <section>
