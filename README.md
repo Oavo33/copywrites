@@ -3,12 +3,14 @@
 <head>
   <title>Community Notice Board</title>
   <style>
-    body {
-      background-color: #f7f7f7;
-      font-family: 'Roboto', Arial, sans-serif;
-      color: #2d4966;
+    * {
+      box-sizing: border-box;
+    }body {
       margin: 0;
       padding: 0;
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #2d4966;
     }
     .container {
       max-width: 800px;
@@ -17,21 +19,17 @@
       background-color: #ffffff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 10px;
+      overflow: hidden;
     }
     .title {
       font-size: 48px;
       font-weight: bold;
-      text-align: center;
-      color: #2d4966;
-      margin-bottom: 20px;
-      animation: fadeInUp 1s ease;
+      text-align: center;margin-bottom: 20px;
     }
     .subtitle {
       font-size: 32px;
       font-weight: bold;
-      margin-bottom: 10px;
-      color: #2d4966;
-    }
+      margin-bottom: 10px;}
     .section {
       margin-bottom: 30px;
     }
@@ -44,9 +42,7 @@
       border-radius: 10px;
       margin-bottom: 30px;
       text-align: center;
-      animation: fadeIn 1s ease;
-    }
-    .testimonial p {
+    }.testimonial p {
       font-size: 24px;
       font-style: italic;
       margin-bottom: 20px;
@@ -65,37 +61,7 @@
     .join-button:hover {
       background-color: #102a43;
     }
-    .container {
-      background-image: url('community-background.jpg');
-      background-size: cover;
-    }
-    .section {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 40px;
-    }
-    .section p {
-      font-size: 20px;
-      line-height: 1.5;
-    }
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }footer {
+    footer {
       background: linear-gradient(to bottom, #ffffff, #00b3b3);
       padding: 30px;
       color: #ffffff;
@@ -209,52 +175,52 @@
       <section>
         <h2 class="subtitle">Patent and Copyright</h2>
         <p>The best thing we can tell you is "do your own research" on this subject and you might be very surprised! Because if you have a new product for the world to see, then you will need a "patent," and that will cost a lot of money! If you have an idea for the world to see, then you will need to "copyright" it, and that will cost you no money!</p>
-        <p>To have a new product, you will have to get in touch with your local patent office and file for a patent ,Then prove to the patent office that you are the first person in the world to apply for that certain patent! This can take a lot of time and money.</p>
+        <p>To have a new product, you will have to get in touch with your local patent office and file for a patent, then prove to the patent office that you are the first person in the world to apply for that certain patent! This can take a lot of time and money.</p>
         <p>To get copyrights, you will have to create something called a "fingerprint" regarding whatever idea you have. This can be in the form of a written evidence piece that you can specifically prove to be from a date and point in time! If you have done a good enough fingerprint, then you can release your content free anytime!</p>
-                                                                          <p>A new product could be : A new shape ladder ,fastest ever space rocket , flying car/hoverboard ,interactive community notice boards .<br>
-A new idea could be : A book written by you ,painted picture, music , movies and theatre, architectural works ,computer code .
-</p>
+        <p>A new product could be: A new shape ladder, fastest-ever space rocket, flying car/hoverboard, interactive community notice boards.<br>
+        A new idea could be: A book written by you, painted picture, music, movies and theatre, architectural works, computer code.</p>
       </section>
       <section>
         <h2 class="subtitle">Online Publishers</h2>
         <p>If you are wondering why we have GitHub in our link address, then we have left it there for a reason! GitHub is one of the most commonly used "online publishers" in the world, and in the team's opinion, one of the easiest to use! All the team has said, "how easy their interface and integrations are to use"! And the more you use GitHub, the faster you get at the process of publishing your original content online. We want everyone to know how easy it is to create your original content online with copywriting and the means to do it. Hope the team didn't rabbit on too much? See you soon at one of the community projects coming up.</p>
       </section>
     </main>
-    <footer><div class="footer-container">
-            <div class="box">
-                <p>Contact<br>Email: contact@thehub.com</p>
-            </div>
-  <div class="footer-container">
-    <div class="box"><p>By using The Hub, you agree to our <a href="https://oavo33.github.io/termsancond/" style="color: pink;">Terms and conditions</a> and <a href="https://oavo33.github.io/policy/" style="color: pink;">Privacy Policy</a>. Please read them carefully before accessing or using our platform.</p>
-    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="box">
+          <p>Contact<br>Email: contact@thehub.com</p>
+        </div>
+        <div class="box">
+          <p>By using The Hub, you agree to our <a href="https://oavo33.github.io/termsancond/" style="color: pink;">Terms and conditions</a> and <a href="https://oavo33.github.io/policy/" style="color: pink;">Privacy Policy</a>. Please read them carefully before accessing or using our platform.</p>
+        </div><div class="box" onclick="window.open('https://docs.google.com/forms/d/1q76lEgWn-D8CoaPEdrTWtb5xqof5j5C3lrUWI5GTN-s/viewform?embedded=true')" style="cursor: pointer;">
+          <h3>What Do You Think About Our Community Hub?</h3>
+        </div>
+        <div class="social">
+          <a href="#">
+            <img src="https://img.icons8.com/office/30/FF0000/youtube.png" alt="YouTube">
+          </a>
+          <a href="#">
+            <img src="https://img.icons8.com/office/30/FF0000/facebook-new.png" alt="Facebook">
+          </a>
+        </div>
+        <div class="footer-container">
+          <div class="box back-to-top" onclick="scrollToTop()">To The Top</div>
+        </div>
+        <div class="footer-container">
+          <p>&copy; 2023 Lofties. All rights reserved.</p>
+        </div>
+        <div class="tcbhg">
+          <p>
+            <a href="https://example.com/guide-to-copywriting" style="color: pink;">The Community Business Hub's Guide To Copywriting</a>
+          </p>
+        </div>
+      </div>
+    </footer>
   </div>
-  <div class="footer-container">
-  <div class="box" onclick="window.open('https://docs.google.com/forms/d/1q76lEgWn-D8CoaPEdrTWtb5xqof5j5C3lrUWI5GTN-s/viewform?embedded=true')" style="cursor: pointer;">
-    <h3>What Do You Think About Our Community Hub?</h3>
-  </div>
-</div><div class="box">
-        <a href="#">
-          <img src="https://img.icons8.com/office/30/FF0000/youtube.png" alt="YouTube">
-        </a>
-        <a href="#">
-          <img src="https://img.icons8.com/office/30/FF0000/facebook-new.png" alt="Facebook">
-        </a>
-      </div><div class="footer-container">
-      <div class="box back-to-top" onclick="scrollToTop()">To The Top</div>
-    </div>
-    <div class="footer-container">
-      <p>&copy; 2023 Lofties. All rights reserved.</p>
-    </div>
-    <div class="tcbhg">
-      <p>
-        <a href="https://example.com/guide-to-copywriting" style="color: pink;">The Community Business Hub's Guide To Copywriting</a>
-      </p>
-    </div>
-  </footer>
 <script>
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-  </script>
+</script>
 </body>
 </html>
