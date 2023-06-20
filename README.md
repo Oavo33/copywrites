@@ -227,7 +227,7 @@ footer {
         <h2 class="subtitle">Patent and Copyright</h2>
         <p>The best thing we can tell you is "do your own research" on this subject and you might be very surprised! Because if you have a new product for the world to see, then you will need a "patent," and that will cost a lot of money! If you have an idea for the world to see, then you will need to "copyright" it, and that will cost you no money!</p>
         <p>To have a new product, you will have to get in touch with your local patent office and file for a patent, then prove to the patent office that you are the first person in the world to apply for that certain patent! This can take a lot of time and money.</p>
-        <p>To get copyrights, you will have to create something called a "fingerprint" regarding whatever idea you have. This can be in the form of a written evidence piece that you can specifically prove to be from a date and point in time! If you have done a good enough fingerprint, then you can release your content free anytime!</p>
+        <p>To get copyright, you will have to create something called a "fingerprint" regarding whatever idea you have. This can be in the form of a written evidence piece that you can specifically prove to be from a date and point in time! If you have done a good enough fingerprint, then you can release your content free anytime!</p>
         <p>A new product could be: A new shape ladder, fastest-ever space rocket, flying car/hoverboard, interactive community notice boards.<br>
         A new idea could be: A book written by you, painted picture, music, movies and theatre, architectural works, computer code.</p>
       </section>
