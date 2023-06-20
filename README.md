@@ -11,7 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .container {
-  max-width: 1200px;
+  max-width: 464px;
   margin: 0 auto;
   padding: 20px;}
 header {
