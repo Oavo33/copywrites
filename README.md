@@ -13,7 +13,7 @@
       color: #2d4966;
     }
     .container {
-      max-width: 250px;
+      max-width: 514px;
       margin: 0 auto;
       padding: 20px;
       background-color: #ffffff;
