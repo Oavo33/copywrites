@@ -182,7 +182,7 @@
       </section>
       <section>
         <h2 class="subtitle">Online Publishers</h2>
-        <p>If you are wondering why we have GitHub in our link address, then we have left it there for a reason! GitHub is one of the most commonly used "online publishers" in the world, and in the team's opinion, one of the easiest to use! All the team has said, "how easy their interface and integrations are to use"! And the more you use GitHub, the faster you get at the process of publishing your original content online. We want everyone to know how easy it is to create your original content online with copywriting and the means to do it. Hope the team didn't rabbit on too much? See you soon at one of the community projects coming up.</p>
+        <p>If you are wondering why we have GitHub in our link address, then we have also left it there for a reason! GitHub is one of the most commonly used "online publishers" in the world, and in the team's opinion, one of the easiest to use! All the team has said, "how easy their interface and integrations are to use"! And the more you use GitHub, the faster you get at the process of publishing your original content online. We want everyone to know how easy it is to create your original content online with copywriting and the means to do it. Hope the team didn't rabbit on too much? See you soon at one of the community projects coming up.</p>
       </section>
     </main>
     <footer>
