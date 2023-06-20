@@ -11,7 +11,17 @@
       font-family: 'Roboto', Arial, sans-serif;
       background-color: #f7f7f7;
       color: #2d4966;
-    }.title {
+    }
+    .container {
+      max-width: 250px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .title {
       font-size: 48px;
       font-weight: bold;
       text-align: center;margin-bottom: 20px;
